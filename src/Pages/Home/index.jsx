@@ -1,7 +1,13 @@
 import React from "react";
-
+import HomeCatSlider from "../../components/HomeCatSlider";
+import HomeSlider from "../../components/HomeSlider";
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <>
+      <HomeSlider />
+      <HomeCatSlider/>
+    </>
+  );
 };
 
-export default Home
+export default Home;
